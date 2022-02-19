@@ -1,0 +1,15 @@
+.chicken{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.chicken_text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 25px;
+    font-size: large;
+}
