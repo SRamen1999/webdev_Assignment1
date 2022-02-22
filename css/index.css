@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
-    font-family: "Kanit", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-size: 6vh;
 }
 
 #title-1 {
@@ -9,22 +14,23 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -160%);
-  font-family: "Kanit", sans-serif;
+  text-align: center;
 }
 
 #title-2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #title-3 {
-    font-size: 2vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 700%);
+  font-size: 2vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 700%);
 }
 
 #brightness {
@@ -67,6 +73,8 @@ h1 {
   font-family: "Kanit", sans-serif;
   justify-content: center;
   position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 #animal-div {
@@ -78,17 +86,37 @@ h1 {
 }
 
 #animal-img {
-    width: 50vh;
-    height: auto;
+  width: 50vh;
+  height: auto;
+}
+
+#animal-name {
+  font-size: 2em;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 a {
-    font-size: 2em;
-    font-weight: 600;
-    color: black;
-    cursor: pointer; 
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    display: flex;
+  font-size: 2em;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  display: flex;  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
 }

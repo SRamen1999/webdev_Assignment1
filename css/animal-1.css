@@ -32,7 +32,6 @@
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
-    
   }
   
 .cow{
@@ -57,7 +56,6 @@
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .top_right_text{
@@ -72,4 +70,6 @@
     font-size: 20px;
 }
 
-
+body {
+  margin: 0;
+}
