@@ -1,10 +1,14 @@
 # webdev_Assignment1
 web development assignment 1
 
-Group Members
+Group Members:
+
 Shamim Rahman 
+
 Kevin Hinh
 
-Github User names
+Github User names:
+
 SRamen1999
+
 KevHnh
