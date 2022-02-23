@@ -79,9 +79,34 @@
   padding: 15px;
 }
 
+#home {
+  color: white;
+  padding: 10px 20px;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+button:hover {
+  background-color: yellow;
+  transition: background-color 1s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+}
+
 img {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 body {
