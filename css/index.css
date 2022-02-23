@@ -41,19 +41,32 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 500;
 }
 
-#background {
+#background-1 {
   background-image: url("https://upload.wikimedia.org/wikipedia/en/9/9c/Old_barn_from_the_1950s.jpg");
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
   height: 100vh;
-  z-index: 50;
+  z-index: 0;
 }
 
 #brightness img {
   opacity: 0;
+}
+
+#new-div-text {
+  font-size: 3vw;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  padding: 15px;
+}
+
+#header-img {
+  z-index: 500;
 }
 
 body {
@@ -68,13 +81,24 @@ h1 {
   margin: 0;
 }
 
-#animal-container {
+#animal-container-1 {
   margin: 10px;
   font-family: "Kanit", sans-serif;
   justify-content: center;
   position: relative;
   padding-left: 100px;
   padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#animal-container-2 {
+  margin: 10px;
+  font-family: "Kanit", sans-serif;
+  justify-content: center;
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 40px;
 }
 
 #animal-div {
@@ -88,17 +112,18 @@ h1 {
 #animal-img {
   width: 50vh;
   height: auto;
+  z-index: 0;
 }
 
 #animal-name {
   font-size: 2em;
-  font-weight: 600;
   color: black;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
   justify-content: center;
   display: flex;
+  font-family: "Kanit", sans-serif;
 }
 
 a {
@@ -109,7 +134,7 @@ a {
   text-decoration: none;
   text-align: center;
   justify-content: center;
-  display: flex;  
+  display: flex;
 }
 
 a:hover {
@@ -119,4 +144,14 @@ a:hover {
 #button-container {
   display: flex;
   justify-content: center;
+}
+
+button:hover {
+  background-color: black;
+  transition: background-color 1s;
+}
+
+#animal-name:hover {
+  color: white;
+  transition: background-color 1s;
 }
