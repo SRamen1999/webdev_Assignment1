@@ -9,9 +9,8 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
-  opacity: 0.5;
-  background-image: url("https://cdn.shopify.com/s/files/1/0531/3826/0126/files/CHickens-For-Sale-in-Houston-coop-4.jpg?v=1618083354");
+  height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://cdn.shopify.com/s/files/1/0531/3826/0126/files/CHickens-For-Sale-in-Houston-coop-4.jpg?v=1618083354");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -24,7 +23,10 @@
 .title {
   text-align: center;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 6vh;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  padding: 15px;
 }
 
 .row {
@@ -38,7 +40,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
+  padding: 15px;
 }
 
 .chicken_text {
@@ -46,8 +49,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 2.5vh;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  padding: 15px;
 }
 
 .bottom {
@@ -59,17 +64,26 @@
 }
 
 .bottom_text {
-  font-weight: bold;
   text-align: center;
   padding-top: 20px;
   font-size: 30px;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  padding: 15px;
 }
 
 .text {
-  font-weight: bold;
   font-size: 20px;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  padding: 15px;
 }
 
 body {
   margin: 0;
+}
+
+img {
+  padding-left: 20px;
+  padding-right: 20px;
 }
