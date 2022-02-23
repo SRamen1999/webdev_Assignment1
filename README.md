@@ -12,3 +12,7 @@ Github User names:
 SRamen1999
 
 KevHnh
+
+Github pages url:
+
+https://sramen1999.github.io/webdev_Assignment1/
