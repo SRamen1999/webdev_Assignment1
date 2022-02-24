@@ -106,6 +106,8 @@ a {
 
 body {
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 img {
