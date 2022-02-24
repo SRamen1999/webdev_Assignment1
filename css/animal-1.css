@@ -1,11 +1,12 @@
 .container {
   position: relative;
+  width:100%;
 }
 
 .container:before {
   content: " ";
   display: block;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -110,6 +111,6 @@ img {
 }
 
 body {
-  margin: 0;
+  margin: auto;
   width: 100%;
 }
